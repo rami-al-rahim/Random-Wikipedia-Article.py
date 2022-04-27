@@ -1,11 +1,11 @@
 #my englesh not good I am sory If there are spelling errors 
-#Run the commaind python -m pip install requests
+#Run the commaind (python -m pip install requests)
 import requests 
-#Run the commaind pip install bs4
+#Run the commaind (pip install bs4)
 from bs4 import BeautifulSoup
 #Not staps to this
 import webbrowser
-#This if 1 the comds loops if not conds not lops
+#This if 1 the comds loops if not conds not lops dont edit this 
 i = 1
 def TheCode():
     #if opein url opein random article of wikipedia
