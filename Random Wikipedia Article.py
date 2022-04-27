@@ -1,13 +1,11 @@
 #my englesh not good I am sory If there are spelling errors 
 #Run the commaind python -m pip install requests
-from ast import If
-from asyncio.windows_events import NULL
-from re import A
 import requests 
 #Run the commaind pip install bs4
 from bs4 import BeautifulSoup
 #Not staps to this
 import webbrowser
+   
 #if opein url opein random article of wikipedia
 url = 'https://en.wikipedia.org/wiki/Special:Random'
 #Git th data of url 
@@ -27,10 +25,10 @@ if Data_of_need_url =="y":
     #webbrowser.open_new_tab(article_page.url)\
     Play_agian = input('Play again (y/n)')
     if Play_agian == 'y':
-        NULL 
+        print('h')
 elif Data_of_need_url == 'n':
     Play_agian = input('Play again (y/n)')
     if Play_agian == 'y':
-        NULL 
+        print('h')
 else:
-    print('Write (y/n) plese')
+    Play_agian = print('Write (y/n) plese')
